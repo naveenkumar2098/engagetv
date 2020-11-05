@@ -40,6 +40,11 @@ function App() {
   
     return(
         <>
+            <nav className="navbar sticky-top navbar-expand-lg " >
+                <a className="navbar-brand" href="#">
+                    <img className="d-inline-block align-top mr-3" width="100" height="100" alt="Logo" src="./logo_transparent.png" />
+                </a>
+            </nav>
             <div className="search-container">
                 <form onSubmit={handleOnSubmit}>
                     <input 
